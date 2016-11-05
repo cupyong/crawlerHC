@@ -1,0 +1,40 @@
+{
+  "name": "name",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupyong/crawlerHC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupyong/crawlerHC/issues"
+  },
+  "homepage": "https://github.com/cupyong/crawlerHC#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "co": "^4.6.0",
+    "jsdom": "^9.8.3",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.2.0",
+    "koa-compress": "^1.0.9",
+    "koa-cors": "0.0.16",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^5.4.0",
+    "mongoose": "^4.6.5",
+    "thunkify": "^2.1.2",
+    "cheerio": "0.18.0",
+    "generic-pool": "2.1.1",
+    "iconv": "*",
+    "iconv-lite": "0.4.4",
+    "jschardet": "1.1.0",
+    "lodash": "2.4.1",
+    "request": "2.42.0"
+  }
+}
